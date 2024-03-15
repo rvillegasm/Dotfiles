@@ -1,0 +1,125 @@
+# [custom.colima]
+# command = "echo '󰡨 Colima'"
+# when = "colima status"
+# style = "bold blue"
+# format = 'using [$output]($style) '
+
+[aws]
+symbol = "  "
+
+[buf]
+symbol = " "
+
+[c]
+symbol = " "
+
+[conda]
+symbol = " "
+
+[dart]
+symbol = " "
+
+[directory]
+read_only = " 󰌾"
+
+[docker_context]
+symbol = " "
+
+[elixir]
+symbol = " "
+
+[elm]
+symbol = " "
+
+[fossil_branch]
+symbol = " "
+
+[git_branch]
+symbol = " "
+
+[golang]
+symbol = " "
+
+[guix_shell]
+symbol = " "
+
+[haskell]
+symbol = " "
+
+[haxe]
+symbol = " "
+
+[hg_branch]
+symbol = " "
+
+[hostname]
+ssh_symbol = " "
+
+[java]
+symbol = " "
+
+[julia]
+symbol = " "
+
+[lua]
+symbol = " "
+
+[memory_usage]
+symbol = "󰍛 "
+
+[meson]
+symbol = "󰔷 "
+
+[nim]
+symbol = "󰆥 "
+
+[nix_shell]
+symbol = " "
+
+[nodejs]
+symbol = " "
+
+[os.symbols]
+Macos = " "
+
+[package]
+symbol = "󰏗 "
+
+[pijul_channel]
+symbol = " "
+
+[python]
+symbol = " "
+
+[rlang]
+symbol = "󰟔 "
+
+[ruby]
+symbol = " "
+
+[rust]
+symbol = " "
+
+[scala]
+symbol = " "
+
+
+[palettes.gruvbox]
+background = '#282828'
+foreground = '#ebdbb2'
+normalblack = '#282828'
+normalred = '#cc241d'
+normalgreen = '#98971a'
+normalyellow = '#d79921'
+normalblue = '#458588'
+normalmagenta = '#b16286'
+normalcyan = '#689d6a'
+normalwhite = '#a89984'
+lightblack = '#928374'
+lightred = '#fb4934'
+lightgreen = '#b8bb26'
+lightyellow = '#fabd2f'
+lightblue = '#83a598'
+lightmagenta = '#d3869b'
+lightcyan = '#8ec07c'
+lightwhite = '#ebdbb2'

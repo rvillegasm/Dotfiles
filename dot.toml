@@ -1,0 +1,7 @@
+"alacritty.toml" = "../.config/alacritty/alacritty.toml"
+"tmux.conf" = "../.config/tmux/tmux.conf"
+skhd = "../.config/skhd"
+"path.zsh" = "../.oh-my-zsh/custom/path.zsh"
+yabai = "../.config/yabai"
+"starship.toml" = "../.config/starship.toml"
+"alias.zsh" = "../.oh-my-zsh/custom/alias.zsh"

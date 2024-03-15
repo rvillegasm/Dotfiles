@@ -1,0 +1,18 @@
+import = ["/Users/rvillegasm/.config/alacritty/themes/themes/gruvbox_dark.toml"]
+
+[env]
+TERM = "alacritty"
+
+[font]
+size = 12.0
+
+[font.normal]
+family = "Hack Nerd Font Propo"
+
+[window]
+decorations = "none"
+opacity = 0.95
+
+[window.padding]
+x = 4
+y = 3
