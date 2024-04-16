@@ -81,6 +81,9 @@ symbol = " "
 [nodejs]
 symbol = " "
 
+[bun]
+symbol = "󰳯 "
+
 [os.symbols]
 Macos = " "
 
