@@ -28,5 +28,8 @@ return {
   { import = "astrocommunity.motion.harpoon" },
   { import = "astrocommunity.motion.mini-surround" },
 
+  -- Completion
+  { import = "astrocommunity.completion.copilot-cmp" },
+
   -- import/override with your plugins folder
 }
