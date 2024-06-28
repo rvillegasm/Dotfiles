@@ -68,6 +68,11 @@ return {
         ["<Leader>b"] = { desc = "Buffers" },
         -- quick save
         -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+        -- NOTE: CUSTOM MAPPINGS
+        ["<Leader>fr"] = {
+          function() require("telescope.builtin").lsp_references { prompt_title = "References" } end,
+          desc = "Find references",
+        },
       },
       t = {
         -- setting a mapping to false will disable it
