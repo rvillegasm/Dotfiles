@@ -1,3 +1,7 @@
+git:
+  paging:
+    colorArg: always
+    pager: delta --dark --paging=never --line-numbers --syntax-theme "Catppuccin Mocha"
 gui:
   theme:
     activeBorderColor:
