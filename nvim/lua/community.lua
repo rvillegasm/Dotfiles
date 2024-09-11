@@ -13,6 +13,7 @@ return {
   { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.tailwindcss" },
+  { import = "astrocommunity.pack.java" },
 
   -- Config languages
   { import = "astrocommunity.pack.yaml" },
