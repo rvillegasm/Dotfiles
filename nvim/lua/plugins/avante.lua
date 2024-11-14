@@ -14,21 +14,23 @@ return {
     "nvim-tree/nvim-web-devicons", -- or echasnovski/mini.icons
     "zbirenbaum/copilot.lua", -- for providers='copilot'
     {
-      -- Make sure to set this up properly if you have lazy=true
-      "MeanderingProgrammer/render-markdown.nvim",
-      opts = function(_, opts)
-        if not opts.filetypes then opts.filetypes = { "markdown", "quarto", "rmd" } end
-        opts.filetypes = require("astrocore").list_insert_unique(opts.filetypes, { "Avante" })
-      end,
-      ft = { "markdown", "Avante" },
-    },
-    {
       "AstroNvim/astrocore",
       opts = function(_, opts)
         local maps = assert(opts.mappings)
         local prefix = "<Leader>a"
 
         maps.n[prefix] = { desc = "Avante" }
+      end,
+    },
+  },
+  specs = { -- optional dependencies
+    {
+      -- make sure `Avante` is added as a filetype
+      "MeanderingProgrammer/render-markdown.nvim",
+      optional = true,
+      opts = function(_, opts)
+        if not opts.file_types then opts.filetypes = { "markdown" } end
+        opts.file_types = require("astrocore").list_insert_unique(opts.file_types, { "Avante" })
       end,
     },
   },
@@ -107,7 +109,6 @@ return {
       },
     },
     highlights = {
-      ---@type AvanteConflictHighlights
       diff = {
         current = "DiffText",
         incoming = "DiffAdd",
