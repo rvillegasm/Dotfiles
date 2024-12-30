@@ -1,8 +1,19 @@
 theme = catppuccin-mocha
+
+cursor-style = block
+shell-integration-features = no-cursor
+
 font-size = 12
-font-family = 'Hack Nerd Font Mono'
+font-family = 'GeistMono Nerd Font Mono'
 font-thicken = true
+font-feature = -liga
+
 mouse-hide-while-typing = true
-window-decoration = false
-background-opacity = 0.95
+
+macos-titlebar-style = hidden
+window-padding-balance = true
+window-padding-x = 4
+window-padding-y = 4
+
+background-opacity = 0.90
 background-blur-radius = 20
