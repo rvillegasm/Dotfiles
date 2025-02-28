@@ -14,6 +14,7 @@ return {
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.java" },
+  { import = "astrocommunity.pack.go" },
 
   -- Config languages
   { import = "astrocommunity.pack.yaml" },
