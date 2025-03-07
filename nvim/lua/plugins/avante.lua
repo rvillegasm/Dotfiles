@@ -1,8 +1,9 @@
 return {
+  -- See https://github.com/yetone/avante.nvim?tab=readme-ov-file#installation for up to date config options
   "yetone/avante.nvim",
   event = "VeryLazy",
   lazy = false,
-  version = "*", -- false, -- set this if you want to always pull the latest change
+  version = false, -- Set this to "*" to always pull the latest release version, or set it to false to update to the latest code changes.
   -- if you want to build from source then do `make BUILD_FROM_SOURCE=true`
   build = "make",
   dependencies = {
