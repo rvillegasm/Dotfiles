@@ -1,5 +1,4 @@
 "com.mitchellh.ghostty" = "~/Library/Application Support/com.mitchellh.ghostty"
-nvim = "../.config/nvim"
 yabai = "../.config/yabai"
 skhd = "../.config/skhd"
 "alias.zsh" = "../.oh-my-zsh/custom/alias.zsh"
