@@ -83,10 +83,6 @@ return {
         -- setting a mapping to false will disable it
         -- ["<C-S>"] = false,
       },
-      i = {
-        -- Remap 'jk' to 'Esc' in insert mode
-        ["jk"] = { "<Esc>", desc = "Exit insert mode" },
-      },
     },
   },
 }
