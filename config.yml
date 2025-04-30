@@ -3,6 +3,11 @@ git:
     colorArg: always
     pager: delta --dark --paging=never --line-numbers --syntax-theme "Catppuccin Mocha"
 gui:
+  branchColorPatterns:
+    "^feature/": "#a6e3a1"
+    "^bugfix/": "#f9e2af"
+    "^hotfix/": "#f38ba8"
+    "^cleanup/": "#b4befe"
   theme:
     activeBorderColor:
       - "#fab387"
