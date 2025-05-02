@@ -16,6 +16,7 @@ return {
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.java" },
   { import = "astrocommunity.pack.go" },
+  { import = "astrocommunity.pack.python-ruff" },
 
   -- Config languages
   { import = "astrocommunity.pack.yaml" },
@@ -25,8 +26,9 @@ return {
   { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.pack.terraform" },
 
-  -- DB support
+  -- Other tools
   { import = "astrocommunity.pack.full-dadbod" },
+  { import = "astrocommunity.programming-language-support.rest-nvim" },
 
   -- AI tools
   { import = "astrocommunity.completion.avante-nvim" },
