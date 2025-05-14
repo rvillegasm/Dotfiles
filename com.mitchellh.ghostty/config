@@ -3,7 +3,7 @@ theme = dark:catppuccin-mocha,light:catppuccin-latte
 cursor-style = block
 shell-integration-features = no-cursor
 
-font-size = 12
+font-size = 14
 font-family = 'GeistMono Nerd Font Mono'
 font-thicken = true
 font-feature = -calt
