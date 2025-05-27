@@ -29,6 +29,7 @@ return {
   -- Other tools
   { import = "astrocommunity.pack.full-dadbod" },
   { import = "astrocommunity.programming-language-support.rest-nvim" },
+  { import = "astrocommunity.game.leetcode-nvim" },
 
   -- AI tools
   { import = "astrocommunity.completion.avante-nvim" },
