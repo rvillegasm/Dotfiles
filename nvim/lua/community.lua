@@ -16,6 +16,7 @@ return {
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.java" },
   { import = "astrocommunity.pack.go" },
+  { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.python-ruff" },
 
   -- Config languages
