@@ -33,7 +33,6 @@ return {
 
   -- AI tools
   { import = "astrocommunity.completion.avante-nvim" },
-  { import = "astrocommunity.editing-support.mcphub-nvim" },
 
   -- Motion
   { import = "astrocommunity.motion.mini-surround" },
