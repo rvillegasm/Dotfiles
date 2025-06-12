@@ -4,10 +4,7 @@ return {
     provider = "copilot",
     providers = {
       copilot = {
-        model = "claude-3.7-sonnet-thought",
-        extra_request_body = {
-          max_tokens = 20480,
-        },
+        model = "gpt-4.1",
       },
     },
     windows = {
