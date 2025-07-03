@@ -29,11 +29,11 @@ yabai -m config \
 	split_ratio 0.50 \
 	split_type auto \
 	auto_balance off \
-	top_padding 06 \
-	bottom_padding 06 \
-	left_padding 06 \
-	right_padding 06 \
-	window_gap 06 \
+	top_padding 08 \
+	bottom_padding 08 \
+	left_padding 08 \
+	right_padding 08 \
+	window_gap 08 \
 	layout bsp \
 	mouse_modifier fn \
 	mouse_action1 move \
@@ -45,3 +45,5 @@ yabai -m rule --add app="^Digital Colour Meter$" manage=off
 # yabai -m rule --add app="^Microsoft Teams classic$" manage=off
 
 echo "yabai configuration loaded.."
+
+borders active_color=0x0xfffab387 inactive_color=0xff9399b2 width=6.0 &
